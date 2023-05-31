@@ -1,0 +1,9 @@
+rootProject.name = "contest"
+include 'contestDomain'
+include 'contestRepoDB'
+include 'contestService'
+include 'contestServer'
+include 'contestNetworking'
+include 'contestClientFX'
+include 'contestRestServices'
+

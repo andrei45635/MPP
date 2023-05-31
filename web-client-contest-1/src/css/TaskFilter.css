@@ -1,0 +1,36 @@
+.filterTF {
+    border: 2px solid #999999;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 15px;
+    background-color: transparent;
+    color: blue;
+}
+
+.filterTF::placeholder{
+    text-align: center;
+}
+
+.filter {
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, lightblue, cornflowerblue);
+    color: black;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.filter:hover {
+    background: linear-gradient(to bottom, mediumpurple, rebeccapurple);
+}
+
+.filtered{
+    text-align: center;
+    color: purple;
+    font-weight: bold;
+}

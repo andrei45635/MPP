@@ -1,0 +1,1 @@
+export const CONTEST_TASKS_BASE_URL = "http://localhost:8080/contest/tasks";

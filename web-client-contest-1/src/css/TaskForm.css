@@ -1,0 +1,50 @@
+.adder:hover {
+    background: linear-gradient(to bottom, lightgreen, green);
+}
+
+.adder {
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, lightblue, cornflowerblue);
+    color: black;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.taskTypeTF, .ageGroupTF{
+    border: 2px solid #999999;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 15px;
+    background-color: transparent;
+    color:blue;
+}
+
+.taskTypeTF::placeholder, .ageGroupTF::placeholder{
+    text-align: center;
+}
+
+.taskWrapper, .ageWrapper{
+    justify-content: center;
+    align-content: center;
+}
+
+.inputWrapper{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+td:hover{
+    color: blue;
+}
+
+label{
+    background: transparent;
+}

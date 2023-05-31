@@ -1,0 +1,27 @@
+22 Mar 2023 14:43:49,039 INFO  org.example.repo.users.UserDBRepository 24 <init> - Initializing Repository with {}
+22 Mar 2023 14:43:49,045 TRACE org.example.repo.users.UserDBRepository 100 save - Enter saving user User{username='barney', password='calhoun', id=0}
+22 Mar 2023 14:43:49,045 TRACE org.example.utils.JDBCutils 48 getConnection - Enter
+22 Mar 2023 14:43:49,045 TRACE org.example.utils.JDBCutils 25 getNewConnection - Enter
+22 Mar 2023 14:43:49,046 INFO  org.example.utils.JDBCutils 30 getNewConnection - trying to connect to database ... null
+22 Mar 2023 14:43:49,046 INFO  org.example.utils.JDBCutils 31 getNewConnection - user: null
+22 Mar 2023 14:43:49,046 INFO  org.example.utils.JDBCutils 32 getNewConnection - pass: null
+22 Mar 2023 14:43:49,048 ERROR org.example.utils.JDBCutils 41 getNewConnection - java.sql.SQLException: The url cannot be null
+22 Mar 2023 14:43:49,049 TRACE org.example.utils.JDBCutils 57 getConnection - Exit
+22 Mar 2023 14:46:15,218 INFO  org.example.repo.users.UserDBRepository 24 <init> - Initializing Repository with {}
+22 Mar 2023 14:46:15,224 TRACE org.example.repo.users.UserDBRepository 100 save - Enter saving user User{username='barney', password='calhoun', id=1}
+22 Mar 2023 14:46:15,225 TRACE org.example.utils.JDBCutils 48 getConnection - Enter
+22 Mar 2023 14:46:15,225 TRACE org.example.utils.JDBCutils 25 getNewConnection - Enter
+22 Mar 2023 14:46:15,225 INFO  org.example.utils.JDBCutils 30 getNewConnection - trying to connect to database ... null
+22 Mar 2023 14:46:15,225 INFO  org.example.utils.JDBCutils 31 getNewConnection - user: null
+22 Mar 2023 14:46:15,225 INFO  org.example.utils.JDBCutils 32 getNewConnection - pass: null
+22 Mar 2023 14:46:15,227 ERROR org.example.utils.JDBCutils 41 getNewConnection - java.sql.SQLException: The url cannot be null
+22 Mar 2023 14:46:15,227 TRACE org.example.utils.JDBCutils 57 getConnection - Exit
+22 Mar 2023 14:46:40,903 INFO  org.example.repo.users.UserDBRepository 24 <init> - Initializing Repository with {jdbc.url=jdbc:sqlite:contest_java/contest.db}
+22 Mar 2023 14:46:40,910 TRACE org.example.repo.users.UserDBRepository 100 save - Enter saving user User{username='barney', password='calhoun', id=1}
+22 Mar 2023 14:46:40,910 TRACE org.example.utils.JDBCutils 48 getConnection - Enter
+22 Mar 2023 14:46:40,910 TRACE org.example.utils.JDBCutils 25 getNewConnection - Enter
+22 Mar 2023 14:46:40,910 INFO  org.example.utils.JDBCutils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:contest_java/contest.db
+22 Mar 2023 14:46:40,911 INFO  org.example.utils.JDBCutils 31 getNewConnection - user: null
+22 Mar 2023 14:46:40,911 INFO  org.example.utils.JDBCutils 32 getNewConnection - pass: null
+22 Mar 2023 14:46:40,930 ERROR org.example.utils.JDBCutils 41 getNewConnection - java.sql.SQLException: path to 'contest_java/contest.db': 'C:\Users\GIGABYTE\IdeaProjects\mpp-proiect-java-andrei45635\contest_java\contest_java' does not exist
+22 Mar 2023 14:46:40,931 TRACE org.example.utils.JDBCutils 57 getConnection - Exit

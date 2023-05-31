@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="contest_java" target="16" />
+      <module name="contest_java.contestClientFX" target="18" />
+      <module name="contest_java.contestClientFX.main" target="18" />
+      <module name="contest_java.contestClientFX.test" target="18" />
+      <module name="contest_java.contestDomain" target="18" />
+      <module name="contest_java.contestDomain.main" target="18" />
+      <module name="contest_java.contestDomain.test" target="18" />
+      <module name="contest_java.contestNetworking" target="18" />
+      <module name="contest_java.contestNetworking.main" target="18" />
+      <module name="contest_java.contestNetworking.test" target="18" />
+      <module name="contest_java.contestRepoDB" target="18" />
+      <module name="contest_java.contestRepoDB.main" target="18" />
+      <module name="contest_java.contestRepoDB.test" target="18" />
+      <module name="contest_java.contestServer" target="18" />
+      <module name="contest_java.contestServer.main" target="18" />
+      <module name="contest_java.contestServer.test" target="18" />
+      <module name="contest_java.contestService" target="18" />
+      <module name="contest_java.contestService.main" target="18" />
+      <module name="contest_java.contestService.test" target="18" />
+      <module name="contest_java.main" target="16" />
+      <module name="contest_java.test" target="16" />
+      <module name="contestClientFX" target="17" />
+      <module name="contestClientFX.main" target="17" />
+      <module name="contestClientFX.test" target="17" />
+      <module name="contestModel" target="17" />
+      <module name="contestModel.main" target="17" />
+      <module name="contestModel.test" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

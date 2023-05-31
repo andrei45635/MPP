@@ -1,0 +1,70 @@
+syntax = "proto3";
+
+option java_package = "com.example.protobuff";
+option java_outer_classname = "ContestProto";
+
+package com.example.networking;
+
+message User{
+  int32 id = 1;
+  string username = 2;
+  string password = 3;
+}
+
+enum Type{PAINTING = 0; TREASURE = 1; POETRY = 2;};
+enum AgeGroup{YOUNG = 0; PRETEEN = 1; TEEN = 2;};
+
+message Participant{
+  int32 id = 1;
+  string name = 2;
+  int32 age = 3;
+}
+
+message Task{
+  int32 id = 1;
+  Type type = 2;
+  AgeGroup age = 3;
+}
+
+message ParticipantTask{
+  int32 id = 1;
+  int32 participantID = 2;
+  string name = 3;
+  int32 age = 4;
+  string type1 = 5;
+  string type2 = 6;
+  int32 taskID1 = 7;
+  int32 taskID2 = 8;
+}
+
+message ParticipantDTO{
+  string name = 1;
+  int32 age = 2;
+}
+
+message TaskDTO{
+  int32 taskID = 1;
+  Type type = 2;
+  AgeGroup age = 3;
+  int32 enrolled = 4;
+}
+
+message ContestRequest{
+  enum Req{Login = 0; Logout = 1; ADD_PARTICIPANT_EXPERIMENTAL = 2; GET_ALL_TASKS_EXPERIMENTAL = 3; FILTER = 4;}
+  Req req = 1;
+  oneof payload{
+    User user = 2;
+    ParticipantTask pt = 3;
+  }
+  string type = 4;
+  string age = 5;
+}
+
+message ContestResponse{
+  enum Reply{OK = 0; Error = 1; Login = 2; Logout = 3; ADD_PARTICIPANT_EXPERIMENTAL = 4; GET_ALL_TASKS_EXPERIMENTAL = 5; FILTER = 6; UPDATE = 7;}
+  Reply rep = 1;
+  string error = 2;
+  User user = 3;
+  repeated TaskDTO tasks = 4;
+  repeated ParticipantDTO participants = 5;
+}

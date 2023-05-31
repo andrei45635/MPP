@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':contestDomain')
+    implementation project(':contestNetworking')
+    implementation project(':contestService')
+    implementation project(':contestRepoDB')
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+
+    //implementation 'org.springframework:spring-context:5.3.24'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+application{
+    mainClass='StartProtoServer'
+}

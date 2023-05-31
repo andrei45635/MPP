@@ -1,0 +1,15 @@
+.modBtn:hover {
+    background: linear-gradient(to bottom, lawngreen, forestgreen);
+}
+
+.delBtn:hover{
+    background: linear-gradient(to bottom, lightcoral, red);
+}
+
+.delBtn, .modBtn{
+    margin: 2px;
+    background-color: deepskyblue;
+    font-weight: bold;
+    color: black;
+    font-family: "Avenir Helvetica", sans-serif;
+}

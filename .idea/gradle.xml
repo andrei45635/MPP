@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/contest_java" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/contest_java" />
+            <option value="$PROJECT_DIR$/contest_java/contestClientFX" />
+            <option value="$PROJECT_DIR$/contest_java/contestDomain" />
+            <option value="$PROJECT_DIR$/contest_java/contestNetworking" />
+            <option value="$PROJECT_DIR$/contest_java/contestRepoDB" />
+            <option value="$PROJECT_DIR$/contest_java/contestRestServices" />
+            <option value="$PROJECT_DIR$/contest_java/contestServer" />
+            <option value="$PROJECT_DIR$/contest_java/contestService" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name = "com.example.ParticipantTask" table = "participantstasks">
+        <id name = "id" type="int" column = "participantstasksid">
+            <generator class="increment"/>
+        </id>
+        <property name="participantID" type="int" column="participantID"/>
+        <property name="task1ID" type="int" column="taskID1" />
+        <property name="task2ID" type="int" column="taskID2" />
+    </class>
+</hibernate-mapping>
