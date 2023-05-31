@@ -1,2 +1,0 @@
-# MPP
-MPP UBB
